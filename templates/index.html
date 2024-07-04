@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Dana Braynin | Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="static/assets/css/main.css" />
+		<link rel="icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<img src="static/images/avatar.jpg" alt="" class="image avatar" />
+					<h1><strong>Hi, I'm Dana</strong></h1> 
+					<h1>and I'm passionate about programming, data, and machine learning<br /></h1>
+				</div>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+ 
+				<!-- One -->
+					<section id="one">
+						<header class="major">
+							<h2>Dana Braynin</h2>
+						</header>
+						<p>A highly motivated and hard-working third-year Digital Sciences for High Tech (B.Sc.) student at Tel Aviv University's Faculty of Engineering and Management.<br>
+						I invite you to take a look at my projects below.</p>
+						<ul class="actions">
+							<li><a href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:ae019b65-2f89-4cfc-b059-23e8a15809b7" target="_blank" class="button">Check Out My Resume</a></li>
+						</ul>
+					</section>
+
+				<!-- Two -->
+					<section id="two">
+						<h2>Recent Work</h2>
+						<div class="row">
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="{{ url_for('get_projects', id=1) }}"><img src="static/images/thumbs/Llama_Mistral.jpeg" alt="" class="rounded-image" /></a>
+								<h3>With: Keras NN, Llama-2-7b and Mistral-7b</h3>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="{{ url_for('get_projects', id=2) }}"><img src="static/images/thumbs/File_Classifier.jpeg" alt="" class="rounded-image" /></a>
+								<h3>With: XGBoost</h3>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="{{ url_for('get_projects', id=3) }}"><img src="static/images/thumbs/TV_Show.jpeg" alt="" class="rounded-image" /></a>
+								<h3>With: Keras NN</h3>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="{{ url_for('get_projects', id=4) }}"><img src="static/images/thumbs/Bike_Rental.jpeg" alt="" class="rounded-image" /></a>
+								<h3>With: XGBoost, AdaBoost, Random Forest</h3>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="{{ url_for('get_projects', id=5) }}"><img src="static/images/thumbs/Website.jpeg" alt="" class="rounded-image" /></a>
+								<h3>With: Flask, CSS, HTML</h3>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="{{ url_for('get_projects', id=6) }}"><img src="static/images/thumbs/Disney.jpeg" alt="" class="rounded-image" /></a>
+								<h3>With: R</h3>
+							</article>
+						</div>
+					</section>
+
+				<!-- Three -->
+				<section id="three">
+					<h2>Get In Touch</h2>
+						<div class="col-4 col-12-small">
+							<ul class="labeled-icons">
+								<li>
+									<h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
+									054-2344806
+								</li>
+								<li>
+									<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
+									<span>danabr99@gmail.com</span>
+								</li>
+							</ul></div>
+							<ul class="copyright custom-copyright">
+								<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</div>
+				</section>
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/dana-braynin/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/DanaBraynin" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=danabr99@gmail.com&tf=1" target="_blank" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						<li><a href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:ae019b65-2f89-4cfc-b059-23e8a15809b7" target="_blank" class="fas fa-file-alt" style="font-size:25px"><span class="label"></span></a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="static/assets/js/jquery.min.js"></script>
+			<script src="static/assets/js/jquery.poptrox.min.js"></script>
+			<script src="static/assets/js/browser.min.js"></script>
+			<script src="static/assets/js/breakpoints.min.js"></script>
+			<script src="static/assets/js/util.js"></script>
+			<script src="static/assets/js/main.js"></script>
+	</body>
+</html>
